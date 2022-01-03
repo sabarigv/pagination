@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Pagination</h1>
+    <p id="description">Pagination Task</p>
+    <script src="script.js"></script>
+   <div class="container-fluid">
+     <div class="table-responsive">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center" id="buttons">
+          <li class="d-flex justify-content-center">
+            <button onclick="previous()">previous </button>
+          </li>
+          <li class="d-flex justify-content-center" id="buttons">
+            <button onclick="first()">first </button>
+          </li>
+          <li class="page-item"><button onclick="table1()">1</button></li>
+          <li class="page-item"><button onclick="table2()">2</button></li>
+          <li class="page-item"><button onclick="table3()">3</button></li>
+          <li class="page-item"><button onclick="table4()">4</button></li>
+          <li class="page-item"><button onclick="table5()">5</button></li>
+          <li class="page-item"><button onclick="table6()">6</button></li>
+          <li class="page-item"><button onclick="table7()">7</button></li>
+          <li class="page-item"><button onclick="table8()">8</button></li>
+          <li class="page-item"><button onclick="table9()">9</button></li>
+          <li class="page-item"><button onclick="table10()">10</button></li>
+          <li class="d-flex justify-content-center" id="buttons">
+            <button onclick="last()">last </button>
+          </li>
+          <li class="d-flex justify-content-center" id="buttons">
+            <button onclick="next()">next </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+   </div> 
+</body>
+</html>

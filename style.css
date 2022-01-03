@@ -1,0 +1,17 @@
+#title{
+    text-align: center;
+}
+#description{
+    text-align: center;
+}
+
+body{
+    align-self: center;
+    padding: 30px;
+}
+
+button{
+    border-radius: 10px;
+    background-color: turquoise;
+    border: whitesmoke;
+}
